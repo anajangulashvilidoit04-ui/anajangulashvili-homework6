@@ -43,3 +43,33 @@ a {
     border: 1px  solid #69306D;
     border-radius: 50%;
 }
+.hero {
+    display:flex;
+    column-gap: 70px;
+    margin-top: 89px;
+    
+}
+.product-images {
+    display:flex;
+    column-gap: 20px;
+    width: 646px;
+    height: 535px;
+}
+.gallery-list{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.gallery-list img {
+  display: block;
+  border-radius: 10px;
+}
+.hero-gallery{
+    width: 91px;
+    height: 536px;
+}
+.main-image {
+  height: 535px;
+  width: 535px;
+  border-radius: 10px;
+}
